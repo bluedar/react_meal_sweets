@@ -1,0 +1,51 @@
+.form {
+  margin: 1rem 0;
+  height:17rem;
+  overflow: auto;
+}
+
+.control{
+  margin-bottom:0.5rem;
+}
+.control label {
+  display:block;
+  margin-bottom:0.2rem;
+  font-weight:bold;
+}
+
+.control input {
+  display:block;
+  width:20rem;
+  max-width:100%;
+  border:1px solid #ccc;
+  padding:0.5rem;
+  border-radius: 0.3rem;
+}
+
+.action{
+  text-align: right;
+  margin-top:2rem;
+}
+
+.action button {
+  padding:0.5rem 2rem;
+  border: 1px solid var(--main-color);
+  border-radius:999px;
+  background-color:transparent;
+  margin-left:1rem;
+  cursor: pointer;
+}
+
+.action button:hover, .action button:active {
+  background-color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+  color:white
+}
+
+.action .button-outline {
+  color:var(--main-color);
+}
+.action .button {
+  background-color: var(--main-color);
+  color:white;
+}
